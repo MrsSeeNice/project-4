@@ -28,9 +28,9 @@ const QuestionForm = ({ onQuestionSubmit }) => {
 
             if (response.ok) {
                 const savedQuestion = await response.json();
-                setTitle(''); // Clear the form
+                setTitle(''); 
                 setDescription('');
-                onQuestionSubmit(savedQuestion); // Update parent component
+                onQuestionSubmit(savedQuestion); 
             } else {
                 console.error('Failed to save question');
             }

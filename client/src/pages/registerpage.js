@@ -29,7 +29,7 @@ const RegisterPage = () => {
             });
 
             if (response.ok) {
-                navigate('/login'); // Redirect to login page
+                navigate('/login');
             } else {
                 const errorData = await response.json();
                 setError(errorData.error || 'Registration failed. Please try again.');

@@ -23,8 +23,8 @@ const LoginPage = () => {
 
             if (response.ok) {
                 const data = await response.json();
-                localStorage.setItem('token', data.token); // Store the token
-                navigate('/dashboard'); // Redirect to the dashboard
+                localStorage.setItem('token', data.token); 
+                navigate('/dashboard'); 
             } else {
                 const errorData = await response.json();
                 setError(errorData.error || 'Failed to log in. Please try again.');

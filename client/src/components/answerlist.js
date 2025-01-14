@@ -27,8 +27,8 @@ const AnswerForm = ({ questionId, onAnswerSubmit }) => {
 
             if (response.ok) {
                 const savedAnswer = await response.json();
-                setAnswer(''); // Clear the form
-                onAnswerSubmit(savedAnswer); // Update parent component
+                setAnswer(''); 
+                onAnswerSubmit(savedAnswer); 
             } else {
                 console.error('Failed to save answer');
             }

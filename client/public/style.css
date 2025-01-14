@@ -1,11 +1,10 @@
-/* General Reset */
 body, h1, h2, h3, p, ul, li, a, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styles */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
@@ -15,9 +14,9 @@ body {
     padding: 0;
 }
 
-/* Header Styles */
+
 header {
-    background-color: #0077b6; /* Blue header */
+    background-color: #0077b6; 
     color: white;
     padding: 1rem 2rem;
     text-align: center;
@@ -28,7 +27,6 @@ header h1 {
     font-weight: bold;
 }
 
-/* Main Content */
 main {
     max-width: 1200px;
     margin: 2rem auto;
@@ -38,9 +36,8 @@ main {
     border-radius: 8px;
 }
 
-/* Buttons */
 button {
-    background-color: #ff6b6b; /* Red button */
+    background-color: #ff6b6b; 
     color
 
     .app-container {

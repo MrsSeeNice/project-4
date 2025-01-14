@@ -9,7 +9,7 @@ const QuestionPage = () => {
     const [answers, setAnswers] = useState([]);
     const [error, setError] = useState('');
 
-    // Fetch question details and answers on component mount
+
     useEffect(() => {
         const fetchQuestion = async () => {
             try {
@@ -29,7 +29,6 @@ const QuestionPage = () => {
         fetchQuestion();
     }, [questionId]);
 
-    // Handle new answer submission
     const handleAnswerSubmit = (newAnswer) => {
         setAnswers((prevAnswers) => [...prevAnswers, newAnswer]);
     };

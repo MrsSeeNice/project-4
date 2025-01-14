@@ -5,7 +5,6 @@ import QuestionForm from '../components/QuestionForm';
 const Dashboard = () => {
     const [questions, setQuestions] = useState([]);
 
-    // Fetch questions on component mount
     useEffect(() => {
         const fetchQuestions = async () => {
             try {
@@ -20,7 +19,6 @@ const Dashboard = () => {
         fetchQuestions();
     }, []);
 
-    // Handle new question submission
     const handleQuestionSubmit = (newQuestion) => {
         setQuestions((prevQuestions) => [...prevQuestions, newQuestion]);
     };
