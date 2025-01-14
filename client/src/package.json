@@ -1,13 +1,31 @@
-{
-    "email": "user@example.com",
-    "password": "password123"
+  {
+    "name": "favoritecolors",
+    "version": "1.0.0",
+    "description": "A web application to explore and discuss questions about blue, red, and green.",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "keywords": [
+      "react",
+      "colors",
+      "questions",
+      "answers"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-router-dom": "^6.12.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.0.0",
+      "eslint-plugin-react": "^7.0.0"
+    }
   }
   
-  {
-    "token": "jwt-token-string"
-  }
-  
-  {
-    "error": "Invalid email or password"
-  }
   
